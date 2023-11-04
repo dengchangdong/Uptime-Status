@@ -2,12 +2,12 @@
 window.Config = {
 
   // 显示标题
-  SiteName: '云生站点监测',
+  SiteName: '服务监测',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'ur1078385-b9802a0868414b8a975d5038',
+    'ur1791367-b19db4d799a19759763c9eff',
   ],
 
     // 日志天数
@@ -22,15 +22,7 @@ window.Config = {
   Navi: [
     {
       text: '主页',
-      url: 'https://tjys.tk'
-    },
-    {
-      text: '博客',
-      url: 'https://blog.qikaile.tk'
-    },
-    {
-      text: 'GitHub',
-      url: 'https://github.com/qikaile/uptime-status'
+      url: 'https://www.dengchangdong.com'
     },
   ],
 };

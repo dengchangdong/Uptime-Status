@@ -92,7 +92,7 @@ export async function GetMonitors(apikey, days) {
 
     if (monitor.status === 2) {
       result.status = 'ok';
-      document.getElementById('status-text').innerHTML = "所有站点运行正常";
+      document.getElementById('status-text').innerHTML = "所有服务运行正常";
     };
     if (monitor.status === 9) {
       result.status = 'down';

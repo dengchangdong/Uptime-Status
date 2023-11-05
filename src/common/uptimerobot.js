@@ -88,7 +88,7 @@ export async function GetMonitors(apikey, days) {
     if (minute >= 0 && minute < 10) {
       minute = "0" + minute;
     }
-    document.getElementById('status-last-time').innerHTML = hour + "&nbsp;:&nbsp;" + minute;
+    document.getElementById('status-last-time').innerHTML = hour + ":" + minute;
 
     if (monitor.status === 2) {
       result.status = 'ok';

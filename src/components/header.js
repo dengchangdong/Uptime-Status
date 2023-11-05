@@ -21,7 +21,7 @@ function Header() {
         <div className='status-tip' id='status-tip'></div>
         <p className='status-text' id='status-text'>服务状态加载中</p>
         <p className='status-text' id='status-down'>部分服务无法运行</p>
-        <p className='status-time' id='status-time-up'>上次更新于&nbsp;<span id='status-last-time'>00&nbsp;:&nbsp;00</span>&emsp;|&emsp;检测频率&nbsp;5&nbsp;分钟</p>
+        <p className='status-time' id='status-time-up'>上次更新于 <span id='status-last-time'>00:00</span> | 检测频率 5 分钟</p>
       </div>
     </div>
   );

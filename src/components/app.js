@@ -23,7 +23,7 @@ function App() {
           ))}
         </div>
         <div id='footer'>
-          <p>基于&nbsp;<Link to='https://uptimerobot.com/' text='UptimeRobot' />&nbsp;接口&nbsp;|&nbsp;检测频率&nbsp;5&nbsp;分钟</p>
+          <p>基于 <Link to='https://uptimerobot.com/' text='UptimeRobot' /> 接口 | 检测频率 5 分钟</p>
         </div>
       </div>
     </>

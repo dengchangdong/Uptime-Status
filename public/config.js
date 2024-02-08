@@ -22,7 +22,7 @@ window.Config = {
   Navi: [
     {
       text: '主页',
-      url: 'https://www.zaosheng.net'
+      url: 'https://www.dengchangdong.com'
     },
   ],
 };

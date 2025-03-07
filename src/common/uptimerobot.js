@@ -27,7 +27,7 @@ export async function GetMonitors(apikey, days) {
     custom_uptime_ranges: ranges.join('-'),
   };
 
-  const response = await axios.post('https://status.dengchangdong.com/api/v2/getMonitors', postdata, {
+  const response = await axios.post('https://api.dengchangdong.com/status/v2/getMonitors', postdata, {
     timeout: 10000
   });
   if (response.data.stat !== 'ok') {
